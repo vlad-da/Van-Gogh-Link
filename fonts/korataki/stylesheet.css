@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Korataki';
+    src: url('KoratakiLt-Italic.eot');
+    src: local('Korataki Light Italic'), local('KoratakiLt-Italic'),
+        url('KoratakiLt-Italic.eot?#iefix') format('embedded-opentype'),
+        url('KoratakiLt-Italic.woff2') format('woff2'),
+        url('KoratakiLt-Italic.woff') format('woff'),
+        url('KoratakiLt-Italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Korataki';
+    src: url('KoratakiUl-Italic.eot');
+    src: local('Korataki UltraLight Italic'), local('KoratakiUl-Italic'),
+        url('KoratakiUl-Italic.eot?#iefix') format('embedded-opentype'),
+        url('KoratakiUl-Italic.woff2') format('woff2'),
+        url('KoratakiUl-Italic.woff') format('woff'),
+        url('KoratakiUl-Italic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Korataki';
+    src: url('KoratakiLt-Regular.eot');
+    src: local('Korataki Light'), local('KoratakiLt-Regular'),
+        url('KoratakiLt-Regular.eot?#iefix') format('embedded-opentype'),
+        url('KoratakiLt-Regular.woff2') format('woff2'),
+        url('KoratakiLt-Regular.woff') format('woff'),
+        url('KoratakiLt-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Korataki';
+    src: url('KoratakiEb-Italic.eot');
+    src: local('Korataki ExtraBold Italic'), local('KoratakiEb-Italic'),
+        url('KoratakiEb-Italic.eot?#iefix') format('embedded-opentype'),
+        url('KoratakiEb-Italic.woff2') format('woff2'),
+        url('KoratakiEb-Italic.woff') format('woff'),
+        url('KoratakiEb-Italic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Korataki';
+    src: url('KoratakiRg-BoldItalic.eot');
+    src: local('Korataki Bold Italic'), local('KoratakiRg-BoldItalic'),
+        url('KoratakiRg-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('KoratakiRg-BoldItalic.woff2') format('woff2'),
+        url('KoratakiRg-BoldItalic.woff') format('woff'),
+        url('KoratakiRg-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Korataki';
+    src: url('KoratakiXl-Italic.eot');
+    src: local('Korataki ExtraLight Italic'), local('KoratakiXl-Italic'),
+        url('KoratakiXl-Italic.eot?#iefix') format('embedded-opentype'),
+        url('KoratakiXl-Italic.woff2') format('woff2'),
+        url('KoratakiXl-Italic.woff') format('woff'),
+        url('KoratakiXl-Italic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Korataki';
+    src: url('KoratakiXl-Regular.eot');
+    src: local('Korataki ExtraLight'), local('KoratakiXl-Regular'),
+        url('KoratakiXl-Regular.eot?#iefix') format('embedded-opentype'),
+        url('KoratakiXl-Regular.woff2') format('woff2'),
+        url('KoratakiXl-Regular.woff') format('woff'),
+        url('KoratakiXl-Regular.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Korataki';
+    src: url('KoratakiRg-Italic.eot');
+    src: local('Korataki Italic'), local('KoratakiRg-Italic'),
+        url('KoratakiRg-Italic.eot?#iefix') format('embedded-opentype'),
+        url('KoratakiRg-Italic.woff2') format('woff2'),
+        url('KoratakiRg-Italic.woff') format('woff'),
+        url('KoratakiRg-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Korataki';
+    src: url('KoratakiEb-Regular.eot');
+    src: local('Korataki ExtraBold'), local('KoratakiEb-Regular'),
+        url('KoratakiEb-Regular.eot?#iefix') format('embedded-opentype'),
+        url('KoratakiEb-Regular.woff2') format('woff2'),
+        url('KoratakiEb-Regular.woff') format('woff'),
+        url('KoratakiEb-Regular.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Korataki Book';
+    src: url('KoratakiBk-Regular.eot');
+    src: local('Korataki Book'), local('KoratakiBk-Regular'),
+        url('KoratakiBk-Regular.eot?#iefix') format('embedded-opentype'),
+        url('KoratakiBk-Regular.woff2') format('woff2'),
+        url('KoratakiBk-Regular.woff') format('woff'),
+        url('KoratakiBk-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Korataki Book';
+    src: url('KoratakiBk-Italic.eot');
+    src: local('Korataki Book Italic'), local('KoratakiBk-Italic'),
+        url('KoratakiBk-Italic.eot?#iefix') format('embedded-opentype'),
+        url('KoratakiBk-Italic.woff2') format('woff2'),
+        url('KoratakiBk-Italic.woff') format('woff'),
+        url('KoratakiBk-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Korataki';
+    src: url('KoratakiRg-Bold.eot');
+    src: local('Korataki Bold'), local('KoratakiRg-Bold'),
+        url('KoratakiRg-Bold.eot?#iefix') format('embedded-opentype'),
+        url('KoratakiRg-Bold.woff2') format('woff2'),
+        url('KoratakiRg-Bold.woff') format('woff'),
+        url('KoratakiRg-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Korataki';
+    src: url('KoratakiUl-Regular.eot');
+    src: local('Korataki UltraLight'), local('KoratakiUl-Regular'),
+        url('KoratakiUl-Regular.eot?#iefix') format('embedded-opentype'),
+        url('KoratakiUl-Regular.woff2') format('woff2'),
+        url('KoratakiUl-Regular.woff') format('woff'),
+        url('KoratakiUl-Regular.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Korataki';
+    src: url('KoratakiRg-Regular.eot');
+    src: local('Korataki'), local('KoratakiRg-Regular'),
+        url('KoratakiRg-Regular.eot?#iefix') format('embedded-opentype'),
+        url('KoratakiRg-Regular.woff2') format('woff2'),
+        url('KoratakiRg-Regular.woff') format('woff'),
+        url('KoratakiRg-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

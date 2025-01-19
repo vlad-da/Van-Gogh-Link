@@ -7,6 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Van Gogh-Link</title>
 </head>
@@ -22,6 +25,35 @@
             </div>
         </div>
         <div class="header-nav">
+            <div class="burger-menu">
+                <div class="layout">
+                    <div class="burger-menu__container">
+                        <div class="burger-menu-search">
+                            <form>
+                                <input type="text" placeholder="Лампа" class="burger-menu-search__input">
+                                <div class="burger-menu-search__btn">
+                                    <img src="./assets/header/search-normal.svg" alt="search">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="burger-menu-bucket">
+                            <div class="header-nav-bucket__bag">
+                                <svg class="burger-menu-bucket__img" width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.16673 12.9C7.14893 11.5932 8.19325 10.519 9.50006 10.5H23.5001C24.8069 10.519 25.8512 11.5932 25.8334 12.9V23.7C25.8697 26.314 23.7807 28.4627 21.1667 28.5H11.8334C9.21945 28.4627 7.13039 26.314 7.16673 23.7V12.9Z" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M21.1667 14.1V9.3C21.203 6.68604 19.114 4.53729 16.5 4.5C13.8861 4.53729 11.797 6.68604 11.8334 9.3V14.1" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span class="burger-menu-bucket__count">3</span>
+                            </div>
+                            <div class="burger-menu-bucket__text">Корзина</div>
+                        </div>
+                        <div class="burger-menu-nav__nav">
+                            <a href="#" class="burger-menu__item">Каталог</a>
+                            <a href="#" class="burger-menu__item">О компании</a>
+                            <a href="#" class="burger-menu__item">Контакты</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="layout">
                 <div class="header-nav__wrapper">
                     <div class="header-nav__info">
@@ -97,7 +129,6 @@
                             <div class="cards-item__bg">
                                 <img src="./assets/main/dark-lamp.png" alt="img" class="cards-item__img">
                             </div>
-                            <div class="cards-item__offer">Акция</div>
                             <div class="cards-item__details">
                                 <a href="#" class="cards-item__more">
                                     Подробнее
@@ -106,14 +137,11 @@
                         </div>
                        <div class="cards-item__info">
                             <div class="cards-item__text">
-                                Встраиваемый светильник Markt
+                                Линейный светильник ARG
                             </div>
                             <div class="cards-item__price">
-                                <div class="cards-item__new-price">
-                                    3 490 ₽
-                                </div>
-                                <div class="cards-item__old-price">
-                                    <span>5 060</span> ₽
+                                <div class="cards-item__price_static">
+                                    6 700 ₽
                                 </div>
                             </div>
                        </div>
@@ -133,14 +161,87 @@
                         </div>
                        <div class="cards-item__info">
                             <div class="cards-item__text">
-                                Встраиваемый светильник Markt
+                                Сведодиодный светильник
                             </div>
                             <div class="cards-item__price">
                                 <div class="cards-item__new-price">
-                                    3 490 ₽
+                                    5 060 ₽
                                 </div>
                                 <div class="cards-item__old-price">
-                                    <span>5 060</span> ₽
+                                    <span>6 060</span> ₽
+                                </div>
+                            </div>
+                       </div>
+        
+                    </div>
+                    <div class="cards-item">
+                        <div class="cards-item__marketing">
+                            <div class="cards-item__bg">
+                                <img src="./assets/main/lamp.png" alt="img" class="cards-item__img">
+                            </div>
+                            <div class="cards-item__details">
+                                <a href="#" class="cards-item__more">
+                                    Подробнее
+                                </a>
+                            </div>
+                        </div>
+                       <div class="cards-item__info">
+                            <div class="cards-item__text">
+                                Встраиваемый светильник Markt
+                            </div>
+                            <div class="cards-item__price">
+                                <div class="cards-item__price_static">
+                                    3 490 ₽
+                                </div>
+                            </div>
+                       </div>
+        
+                    </div>
+                    <div class="cards-item">
+                        <div class="cards-item__marketing">
+                            <div class="cards-item__bg">
+                                <img src="./assets/main/dark-lamp.png" alt="img" class="cards-item__img">
+                            </div>
+                            <div class="cards-item__offer">Акция</div>
+                            <div class="cards-item__details">
+                                <a href="#" class="cards-item__more">
+                                    Подробнее
+                                </a>
+                            </div>
+                        </div>
+                       <div class="cards-item__info">
+                            <div class="cards-item__text">
+                                Линейный светильник ARG
+                            </div>
+                            <div class="cards-item__price">
+                                <div class="cards-item__new-price">
+                                    6 700 ₽
+                                </div>
+                                <div class="cards-item__old-price">
+                                    <span>6 060</span> ₽
+                                </div>
+                            </div>
+                       </div>
+        
+                    </div>
+                    <div class="cards-item">
+                        <div class="cards-item__marketing">
+                            <div class="cards-item__bg">
+                                <img src="./assets/main/light-lamp.png" alt="img" class="cards-item__img">
+                            </div>
+                            <div class="cards-item__details">
+                                <a href="#" class="cards-item__more">
+                                    Подробнее
+                                </a>
+                            </div>
+                        </div>
+                       <div class="cards-item__info">
+                            <div class="cards-item__text">
+                                Сведодиодный светильник
+                            </div>
+                            <div class="cards-item__price">
+                                <div class="cards-item__price_static">
+                                    5 060 ₽
                                 </div>
                             </div>
                        </div>
@@ -178,7 +279,6 @@
                             <div class="cards-item__bg">
                                 <img src="./assets/main/dark-lamp.png" alt="img" class="cards-item__img">
                             </div>
-                            <div class="cards-item__offer">Акция</div>
                             <div class="cards-item__details">
                                 <a href="#" class="cards-item__more">
                                     Подробнее
@@ -187,95 +287,11 @@
                         </div>
                        <div class="cards-item__info">
                             <div class="cards-item__text">
-                                Встраиваемый светильник Markt
+                                Линейный светильник ARG
                             </div>
                             <div class="cards-item__price">
-                                <div class="cards-item__new-price">
-                                    3 490 ₽
-                                </div>
-                                <div class="cards-item__old-price">
-                                    <span>5 060</span> ₽
-                                </div>
-                            </div>
-                       </div>
-        
-                    </div>
-                    <div class="cards-item">
-                        <div class="cards-item__marketing">
-                            <div class="cards-item__bg">
-                                <img src="./assets/main/light-lamp.png" alt="img" class="cards-item__img">
-                            </div>
-                            <div class="cards-item__offer">Акция</div>
-                            <div class="cards-item__details">
-                                <a href="#" class="cards-item__more">
-                                    Подробнее
-                                </a>
-                            </div>
-                        </div>
-                       <div class="cards-item__info">
-                            <div class="cards-item__text">
-                                Встраиваемый светильник Markt
-                            </div>
-                            <div class="cards-item__price">
-                                <div class="cards-item__new-price">
-                                    3 490 ₽
-                                </div>
-                                <div class="cards-item__old-price">
-                                    <span>5 060</span> ₽
-                                </div>
-                            </div>
-                       </div>
-        
-                    </div>
-                    <div class="cards-item">
-                        <div class="cards-item__marketing">
-                            <div class="cards-item__bg">
-                                <img src="./assets/main/lamp.png" alt="img" class="cards-item__img">
-                            </div>
-                            <div class="cards-item__offer">Акция</div>
-                            <div class="cards-item__details">
-                                <a href="#" class="cards-item__more">
-                                    Подробнее
-                                </a>
-                            </div>
-                        </div>
-                       <div class="cards-item__info">
-                            <div class="cards-item__text">
-                                Встраиваемый светильник Markt
-                            </div>
-                            <div class="cards-item__price">
-                                <div class="cards-item__new-price">
-                                    3 490 ₽
-                                </div>
-                                <div class="cards-item__old-price">
-                                    <span>5 060</span> ₽
-                                </div>
-                            </div>
-                       </div>
-        
-                    </div>
-                    <div class="cards-item">
-                        <div class="cards-item__marketing">
-                            <div class="cards-item__bg">
-                                <img src="./assets/main/dark-lamp.png" alt="img" class="cards-item__img">
-                            </div>
-                            <div class="cards-item__offer">Акция</div>
-                            <div class="cards-item__details">
-                                <a href="#" class="cards-item__more">
-                                    Подробнее
-                                </a>
-                            </div>
-                        </div>
-                       <div class="cards-item__info">
-                            <div class="cards-item__text">
-                                Встраиваемый светильник Markt
-                            </div>
-                            <div class="cards-item__price">
-                                <div class="cards-item__new-price">
-                                    3 490 ₽
-                                </div>
-                                <div class="cards-item__old-price">
-                                    <span>5 060</span> ₽
+                                <div class="cards-item__price_static">
+                                    6 700 ₽
                                 </div>
                             </div>
                        </div>
@@ -316,7 +332,7 @@
                         </div>
                     </div>      
                     <div class="footer__services">
-                        Услуги
+                        <span>Услуги</span>
                         <a href="#">Каталог</a>
                         <a href="#">О компании</a>
                         <a href="#">Контакты</a>
