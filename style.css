@@ -100,10 +100,6 @@ nav,
 section {
   display: block;
 }
-body {
-  line-height: 1;
-  font-family: 'Lato';
-}
 ol,
 ul {
   list-style: none;
@@ -125,10 +121,35 @@ table {
 }
 
 @font-face {
-  font-weight: 400; /* Соответствует значению normal */
+  font-weight: 400; 
   font-family: korataki;
   src: url('./fonts/korataki/KoratakiRg-Bold.ttf');
 }
+
+@font-face {
+    font-weight: 400;
+    font-family: Lato;
+    src: url('./fonts/Lato/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-weight: 500; 
+    font-family: LatoMedium;
+    src: url('./fonts/Lato/Lato-Medium.ttf');
+}
+
+@font-face {
+    font-weight: 600;
+    font-family: LatoSemiBold;
+    src: url('./fonts/Lato/Lato-SemiBold.ttf');
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: LatoBold;
+    src: url('./fonts/Lato/Lato-Bold.ttf');
+}
+/*  */
 
 .layout {
   max-width: 1440px;
@@ -138,6 +159,10 @@ table {
 
 body {
   position: relative;
+  line-height: 1;
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header {
@@ -205,6 +230,7 @@ header {
 
 .header-nav__item {
   display: block;
+  font-family: LatoSemiBold;
   font-weight: 600;
   font-size: 16px;
   line-height: 16px;
@@ -385,6 +411,7 @@ header {
 .cards-item__offer {
   color: #fff;
   background-color: #000;
+  font-family: LatoSemiBold;
   font-weight: 600;
   font-size: 16px;
   line-height: 22.4px;
@@ -418,6 +445,7 @@ header {
   cursor: pointer;
   color: #fff;
   font-size: 16px;
+  font-family: LatoSemiBold;
   font-weight: 600;
   line-height: 22.4px;
   max-width: 258px;
@@ -437,6 +465,7 @@ header {
 
 .cards-item__text {
   color: #231815;
+  font-family: LatoBold;
   font-weight: 700;
   font-size: 18px;
   line-height: 25.2px;
@@ -448,6 +477,7 @@ header {
 }
 
 .cards-item__price_static {
+  font-family: LatoBold;
   font-weight: 700;
   font-size: 22px;
   line-height: 30.8px;
@@ -455,6 +485,7 @@ header {
 }
 
 .cards-item__new-price {
+  font-family: LatoBold;
   font-weight: 700;
   font-size: 22px;
   line-height: 30.8px;
@@ -462,6 +493,7 @@ header {
 }
 
 .cards-item__old-price {
+  font-family: LatoSemiBold;
   font-weight: 600;
   font-size: 22px;
   line-height: 30.8px;
@@ -524,6 +556,7 @@ header {
 }
 
 .footer__adress {
+  font-family: LatoBold;
   font-weight: 700;
   font-size: 18px;
   line-height: 18px;
@@ -542,6 +575,7 @@ header {
 }
 
 .footer__contacts {
+  font-family: LatoBold;
   font-weight: 700;
   font-size: 18px;
   line-height: 18px;
@@ -567,6 +601,7 @@ header {
 
 .footer__services {
   grid-area: services;
+  font-family: LatoBold;
   font-weight: 700;
   font-size: 18px;
   line-height: 18px;
@@ -615,6 +650,17 @@ header {
 }
 
 @media (width < 1024px) {
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background-color: #fff;
+  }
+
+  .shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
   .header-nav__nav {
     display: none;
   }
@@ -679,9 +725,6 @@ header {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 50px;
     column-gap: 40px;
-  }
-
-  .cards-item__more {
   }
 
   .footer__container {
@@ -859,6 +902,7 @@ header {
 
   .burger-menu__item {
     display: block;
+    font-family: LatoSemiBold;
     font-weight: 600;
     font-size: 16px;
     line-height: 16px;
@@ -934,6 +978,7 @@ header {
   }
 
   .cards-item__text {
+    font-family: LatoMedium;
     font-weight: 500;
     font-size: 16px;
     line-height: 22.4px;
